@@ -1,0 +1,4 @@
+{"logsource":"client","message":"An application event log entry..","timestamp":"1970-01-18T13:42:56.440Z","env":"prod","host":"127.0.0.1","program":"client_app","type":"INFO"}
+{"logsource":"client","error":"Error!","timestamp":"1970-01-18T13:42:56.440Z","env":"prod","host":"127.0.0.1","program":"client_app","type":"ERROR"}
+{"type":"INFO","_data":{"version":"1","pid":"10000","mid":"-","info":{"env":"\"prod\"","type":"\"server\""}},"timestamp":"2018-02-09T12:00:00.003Z","host":"127.0.0.1","program":"app","message":"Server log"}
+{"type":"ERROR","timestamp":"2018-02-09T12:00:00.003Z","message":"BadRequestError: request aborted | at emitNone (events.js:105:13) | at IncomingMessage.emit (events.js:207:7) | at abortIncoming (_http_server.js:410:9) | at socketOnClose (_http_server.js:404:3) | at emitOne (events.js:120:20) | at Socket.emit (events.js:210:7) | at TCP._handle.close [as _onclose] (net.js:547:12) | at TCP._handle.close [as _onclose] (net.js:547:12)"}
